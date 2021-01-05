@@ -27,12 +27,13 @@ const Answer = (item, index)  =>  {
 
 class Faq extends Component {
   
-  state = { clicked: true}
+  // state = { clicked: true}
 
-  handleClick = () =>{
-    this.setState({ clicked: !this.state.clicked})
-  }
-  
+  // handleClick = () =>{
+  //   this.setState({ clicked: !this.state.clicked})
+  // }
+  // make a state that is a dictionary or array?
+  // linked to the display items 
   
   render() {
     // const buttonOpen = this.state;
