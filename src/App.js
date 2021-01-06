@@ -4,7 +4,8 @@ import { render } from "react-dom";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import FooterComplex from "./components/footer/FooterComplex";
-import Faq from "./components/faq/Faq"
+import Faq from "./components/faq/MultiopenFaq"
+import Bundler from './components/faq/Faq';
 
 
 class App extends Component {
@@ -38,6 +39,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
+        <Bundler />
         <Faq />
         <div class="h-screen"></div>
         <button onClick={() => this.hideComponent("showHideDemo1")}>

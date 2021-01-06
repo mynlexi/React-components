@@ -37,7 +37,7 @@ class Navbar extends Component {
         </div>
          <div class="md:hidden absolute right-0 top-0 mt-4 mr-4" onClick={this.handleClick}>
          
-          <i className={this.state.clicked ? 
+          <i class={this.state.clicked ? 
             "fas fa-bars":
             "fas fa-times"
           }/>
